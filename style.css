@@ -4,25 +4,41 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 2000px;
+}
+
+header {
+    height: 30%;
 }
 
 /* nav */
 .container-nav {
-    height: 40px;
+    height: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(37, 94, 233);
+    color: white;
+    font-size: 14px;
 
 }
 
-.container-menu {
+.container-nav--menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 30%;
+}
+
+#nav-button {
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    width: 60px;
 }
 
 .container-hero {
@@ -30,6 +46,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 90%;
+}
+
+#hero-paragraph {
+    /* justify-content: center; */
+    padding: 2% 30% 1% 30%;
+    line-height: 25px;
 }
 
 /* main part */
@@ -79,15 +106,15 @@ ul {
     margin: auto;
 }
 
-/* DEBUG */
-.container-nav {
+/* DEBUG !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* .container-nav {
     background-color: aqua;
-}
+} */
 
-.container-hero {
-    background-color: rgb(32, 77, 77);
+/* .container-hero {
+
     height: 400px;
-}
+} */
 
 .container-bloc {
     background-color: rgb(45, 165, 115);
