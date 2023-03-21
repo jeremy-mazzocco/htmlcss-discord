@@ -62,12 +62,17 @@ header {
 }
 
 .grey {
-    width: 60%;
+    width: 50%;
     line-height: 55px;
 }
 
-.bloc-text-paragraph {
-    padding: 6% 40% 0% 0%;
+.bloc-text-paragraph--right {
+    padding: 4% 40% 0% 0%;
+    line-height: 30px;
+}
+
+.bloc-text-paragraph--left {
+    width: 50%;
     line-height: 30px;
 }
 
@@ -98,16 +103,25 @@ main {
     justify-content: center;
     align-items: center;
     height: 25%;
+    padding-left: 12%;
+}
 
+#container-bloc-grey {
+    background-color: rgb(242 242 242);
 }
 
 .bloc-img--left {
-    width: 60%;
+    width: 55%;
     text-align: right;
 }
 
+.bloc-img--right {
+    width: 55%;
+    text-align: left;
+}
+
 .bloc-text {
-    width: 40%;
+    width: 45%;
 }
 
 .container-bottom {
