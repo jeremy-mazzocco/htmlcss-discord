@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Discord</title>
 </head>
@@ -33,22 +36,26 @@
                         Assistenza
                     </div>
                 </div>
-                <button id="nav-button">Accedi</button>
+                <button class="button" id="nav-button">Accedi</button>
             </nav>
             <!-- hero-->
             <div class="container-hero">
-                <h1>
+                <p class="titles">
                     Il tuo posto per parlare
-                </h1>
+                </p class="titles">
                 <p id="hero-paragraph">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore temporibus eaque quia optio
                     animi,
                     itaque adipisci aperiam? Consequatur ducimus deleniti possimus, mollitia vero voluptate repudiandae
                     recusandae dolor laboriosam perspiciatis adipisci!
                 </p>
-                <div class="buttons">
-                    <button>Scarica</button>
-                    <button>Apri per il Mac</button>
+                <div>
+                    <button class="button" id="hero-button-left">
+                        <i class="fa-solid fa-arrow-down"></i> Scarica per Mac
+                    </button>
+                    <button class="button" id="hero-button-right">
+                        Apri Discord nel tuo Browser
+                    </button>
                 </div>
             </div>
         </header>
@@ -56,18 +63,17 @@
         <main>
             <!-- generic bloc -->
             <div class="container-bloc">
-                <div class="bloc-img">
-                    IMG HERE
+                <div class="bloc-img--left">
+                    <img src="img/item1.svg" alt="">
                 </div>
                 <div class="bloc-text">
-                    <h3>
-                        Lorem ipsum dolor sit amet consectetur
-                    </h3>
-                    <p>
+                    <p class="titles grey">
+                        Un luogo a invito con tutto lo spazio neccessario per parlare
+                    </p class="titles grey">
+                    <p class="bloc-text-paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consectetur, dignissimos
                         earum
                         eaque praesentium quod sed numquam harum pariatur, at deserunt? Dignissimos voluptate harum
-                        laboriosam voluptatem, aspernatur quis exercitationem cum.
                     </p>
                 </div>
             </div>
