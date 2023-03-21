@@ -6,12 +6,8 @@
 
 .container {
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    height: 3000px;
 }
 
-header {
-    height: 20%;
-}
 
 /* nav */
 .container-nav {
@@ -19,7 +15,6 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
     background-color: rgb(37, 94, 233);
     color: white;
     font-size: 14px;
@@ -53,7 +48,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    height: 90%;
+    padding: 11% 0%;
 }
 
 .titles {
@@ -62,7 +57,7 @@ header {
 }
 
 .grey {
-    width: 50%;
+    width: 47%;
     line-height: 55px;
 }
 
@@ -75,10 +70,6 @@ header {
     width: 60%;
     line-height: 25px;
     padding-top: 4%;
-}
-
-#bloc-text--left {
-    height: 65%;
 }
 
 #hero-paragraph {
@@ -98,17 +89,12 @@ header {
 
 /* main part */
 
-main {
-    height: 70%;
-}
-
 .container-bloc {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 25%;
-    padding-left: 12%;
+    padding: 5% 0%;
 }
 
 #container-bloc-grey {
@@ -125,18 +111,54 @@ main {
     text-align: left;
 }
 
-.bloc-text {
+#bloc-text-first {
     width: 45%;
+}
+
+#bloc-text-second {
+    width: 45%;
+    padding-bottom: 9%;
+    padding-left: 10%;
+}
+
+#bloc-text-third {
+    width: 45%;
+    padding-bottom: 7%;
 }
 
 .container-bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+#bottom-text-paragraph {
+    padding: 1% 23%;
+    line-height: 25px;
+}
+
+#bottom-text-bottom {
+    width: 35%;
+}
+
+#bottom-text-title {
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url(img/stars.svg);
+    padding: 5% 5% 0% 0%;
+}
+
+#bottom-button {
+    margin: 10% 0% 10% 0%;
+    color: white;
+    background-color: rgb(111 114 222);
 }
 
 /* footer */
+
 .container-footer-upper-part {
     display: flex;
     flex-direction: row;
