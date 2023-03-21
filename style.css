@@ -67,13 +67,18 @@ header {
 }
 
 .bloc-text-paragraph--right {
-    padding: 4% 40% 0% 0%;
-    line-height: 30px;
+    padding: 2% 43% 0% 0%;
+    line-height: 25px;
 }
 
 .bloc-text-paragraph--left {
-    width: 50%;
-    line-height: 30px;
+    width: 60%;
+    line-height: 25px;
+    padding-top: 4%;
+}
+
+#bloc-text--left {
+    height: 65%;
 }
 
 #hero-paragraph {
